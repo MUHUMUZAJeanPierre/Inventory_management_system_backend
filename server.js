@@ -15,7 +15,7 @@ app.use("/api/inventory", inventoryRoutes);
 
 // Database Connection
 mongoose
-  .connect("mongodb://localhost:27017/inve")
+  .connect("mongodb+srv://jmuhumuza:x7O22tjYyDkIosWI@cluster0.lj9ha.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("✅ MongoDB Connected"))
   .catch((err) => console.error("❌ Database Connection Error:", err));
 
